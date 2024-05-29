@@ -10,19 +10,24 @@
 | **Hardware** | Dynamometer, TI C2000 MCU, dSPACE |
 
 ## 🎓 Education
-- **Master of Science, Electrical Engineering** | North Carolina State University (_Aug 2022 - Jul 2024_)
-- **Bachelor of Technology, Electronics and Communication Engineering** | Indian Institute of Space Science and Technology (_Aug 2014 - May 2018_)
+- **Master of Science, Electrical Engineering** <br>
+_North Carolina State University (Aug 2022 - Jul 2024)_
+- **Bachelor of Technology, Electronics and Communication Engineering** <br>
+_Indian Institute of Space Science and Technology (Aug 2014 - May 2018)_
 
 ## 💼 Work Experience
-**Research Assistant @ FREEDM Systems Center - NCSU (_Jan 2023 - Present_)**
+**Research Assistant @ FREEDM Systems Center - NCSU** <br>
+_Jan 2023 - Present_
 - Designed and implemented robust motor control algorithms, such as two degree-of-freedom (2DoF), for Switched Reluctance Machines (SRM) to enhance tracking performance and minimize torque ripple under parameter variations.
 - Established and configured a dynamometer test bench, integrating and validating motor control algorithms on an embedded microcontroller platform (TI C2000).
 
-**Mechatronics and Control Systems Intern @ Nexteer Automotive (_May 2023 - Aug 2023_)**
+**Mechatronics and Control Systems Intern @ Nexteer Automotive** <br>
+_May 2023 - Aug 2023_
 - Designed and implemented a novel Model Predictive Control (MPC) algorithm with Integral action for a 12V SRM in an automotive steering application, eliminating steady-state error and achieving a 26% reduction in command tracking error.
 - Leveraged rapid prototyping methodologies to implement and validate various control strategies on a dynamometer, using dSPACE for real-time execution, and post-processed the experimental data in MATLAB.
 
-**Scientist/Engineer @ Indian Space Research Organization (ISRO) (_Aug 2018 - Jul 2022_)**
+**Scientist/Engineer @ Indian Space Research Organization (ISRO)** <br>
+_Aug 2018 - Jul 2022_
 - Conducted performance validation of aerospace electromechanical actuators and identification of system parameters.
 - Performed mission-critical operations on launch vehicle avionic sub-assemblies; streamlined the testing process through the development of automation sequences, resulting in a 30% reduction in testing time and eliminating user operational error.
 
@@ -67,12 +72,12 @@ Conducted trade-off studies for the selection of MOSFETs/Diodes and reactive com
 
 ![Bike Study](/assets/img/bike_study.jpeg)
 
-## Certifications
-- Introduction to Self-Driving Cars [Credential](https://www.coursera.org/account/accomplishments/verify/VL4CYKBNCTFT)
-- Machine Learning [Credential](https://www.coursera.org/account/accomplishments/verify/DJMPDFPA8MM3)
-
-## 📜 Publications
-1. N. Gupta, G. T. G. and R. S. Kaarthik, "Modeling and Decoupled Control of Series-Connected Split-Phase Synchronous Machines With Open-Circuit Fault," in IEEE Transactions on Industry Applications, vol. 56, no. 1, pp. 325-334, Jan.-Feb. 2020, doi: 10.1109/TIA.2019.2951508
+## 🖋️ Publications
+1. N. Gupta, G. T. G. and R. S. Kaarthik, "Modeling and Decoupled Control of Series-Connected Split-Phase Synchronous Machines With Open-Circuit Fault," in IEEE Transactions on Industry Applications, Jan.-Feb. 2020, doi: 10.1109/TIA.2019.2951508
 2. Sakunthala, S., Gupta, N., Roy, A. and Sharma, K.K., 2021, October. On–Off Control Scheme Using Reaction Control Thrusters for Pitch Stability During Atmospheric Abort of Crew Module. In National Conference on Multidisciplinary Analysis and Optimization (pp. 113-121). Singapore: Springer Nature Singapore.
 3. Gupta, N. and Kaarthik, R.S., 2018, December. Decoupled control of two series connected split-phase synchronous machines from a single six-phase inverter. In 2018 IEEE International Conference on Power Electronics, Drives and Energy Systems (PEDES) (pp. 1-6). IEEE.
 4. Gopika, T.G., Gupta, N. and Kaarthik, R.S., 2018, December. Modeling, simulation, and analysis of series-connected split-phase synchronous motor drive. In 2018 8th IEEE India International Conference on Power Electronics (IICPE) (pp. 1-6). IEEE.
+
+## 📜 Certifications
+- Introduction to Self-Driving Cars [Credential](https://www.coursera.org/account/accomplishments/verify/VL4CYKBNCTFT)
+- Machine Learning [Credential](https://www.coursera.org/account/accomplishments/verify/DJMPDFPA8MM3)
