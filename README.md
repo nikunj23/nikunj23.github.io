@@ -36,7 +36,7 @@ _Aug 2018 - Jul 2022_
 
 I started with developing a model for field-oriented control of a split-phase PMSM in Simulink. I verified the decoupled control by providing control voltages in the &alpha; - &beta; frame, which corresponded to torque-producing voltages. However, when the control voltages in the z<sub>1</sub>-z<sub>2</sub> plane were applied, the machine did not produce any torque. Further, I experimentally verified the speed control of two series-connected PMSMs driven by a single six-phase inverter, with coding in TI F28335S microcontroller. This research illustrated the potential applications of split-phase machines in electric vehicles and rovers. 
 
-<video width="320" height="240" autoplay>
+<video width="320" height="240" autoplay muted loop>
   <source src="/assets/decoupled_comp.mp4" type="video/mp4">
 </video>
 
