@@ -5,8 +5,10 @@
 #### Hardware: Dynamometer, TI C2000 MCU, dSPACE
 
 ## Education
-- M.S., Electrical Engineering	| North Carolina State University (_Aug 2022 - Jul 2024_)	 			        		
-- B.Tech., Electronics and Communication Engineering | Indian Institute of Space Science and Technology (_Aug 2014 - May 2018_)
+- Master of Science, Electrical Engineering 
+North Carolina State University (_Aug 2022 - Jul 2024_)	 			        		
+- Bachelor of Technology, Electronics and Communication Engineering 
+Indian Institute of Space Science and Technology (_Aug 2014 - May 2018_)
 
 ## Work Experience
 **Research Assistant @ FREEDM Systems Center - NCSU (_Jan 2023 - Present_)**
