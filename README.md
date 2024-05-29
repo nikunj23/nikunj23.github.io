@@ -3,17 +3,15 @@
 **Summary:** I am a Master's student at NC State University with a specialization in Power Electronics and Control Systems. I'm skilled in converter and motor modeling, simulation, and control system design and implementation. I have worked with conventional PMSMs but also the not-so-common Switched Reluctance Machines (SRMs). I am skilled in dynamometer bench setup and embedded coding on TI DSPs. I have also used tools such as dSPACE for rapid control prototyping and evaluation.
 
 ## 💻 Technical Skills
-|     |     |
-|:----|:----|
-| **Programming** | MATLAB/Simulink, Embedded C, Python
+|   |   |
+|---|---|
+| **Programming** | MATLAB/Simulink, Embedded C, Python |
 | **Software** | LTspice, PLECS, Code Composer Studio, Altium |
 | **Hardware** | Dynamometer, TI C2000 MCU, dSPACE |
 
 ## 🎓 Education
-- **Master of Science** | Electrical Engineering <br>
-North Carolina State University (_Aug 2022 - Jul 2024_)
-- **Bachelor of Technology** | Electronics and Communication Engineering <br>
-Indian Institute of Space Science and Technology (_Aug 2014 - May 2018_)
+- **Master of Science, Electrical Engineering** | North Carolina State University (_Aug 2022 - Jul 2024_)
+- **Bachelor of Technology, Electronics and Communication Engineering** | Indian Institute of Space Science and Technology (_Aug 2014 - May 2018_)
 
 ## 💼 Work Experience
 **Research Assistant @ FREEDM Systems Center - NCSU (_Jan 2023 - Present_)**
