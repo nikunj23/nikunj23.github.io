@@ -1,16 +1,22 @@
 # Control Systems Engineer
 
-#### Programming: MATLAB/Simulink, Embedded C, Python
-#### Software: LTspice, PLECS, Code Composer Studio, Altium
-#### Hardware: Dynamometer, TI C2000 MCU, dSPACE
+**Summary:** I am a Master's student at NC State University with a specialization in Power Electronics and Control Systems. I'm skilled in converter and motor modeling, simulation, and control system design and implementation. I have worked with conventional PMSMs but also the not-so-common Switched Reluctance Machines (SRMs). I am skilled in dynamometer bench setup and embedded coding on TI DSPs. I have also used tools such as dSPACE for rapid control prototyping and evaluation.
 
-## Education
-- Master of Science, Electrical Engineering 
-North Carolina State University (_Aug 2022 - Jul 2024_)	 			        		
-- Bachelor of Technology, Electronics and Communication Engineering 
-Indian Institute of Space Science and Technology (_Aug 2014 - May 2018_)
+## 💻 Technical Skills
+- **Programming:** | MATLAB/Simulink, Embedded C, Python
+- |:----|:----|
+- **Software:** | LTspice, PLECS, Code Composer Studio, Altium
+- |:----|:----|
+- **Hardware:** | Dynamometer, TI C2000 MCU, dSPACE
 
-## Work Experience
+## 🎓 Education
+- **Master of Science, Electrical Engineering** |
+| North Carolina State University | _Aug 2022 - Jul 2024_
+|:----|:----|
+- **Bachelor of Technology, Electronics and Communication Engineering** |
+| Indian Institute of Space Science and Technology | _Aug 2014 - May 2018_
+
+## 💼 Work Experience
 **Research Assistant @ FREEDM Systems Center - NCSU (_Jan 2023 - Present_)**
 - Designed and implemented robust motor control algorithms, such as two degree-of-freedom (2DoF), for Switched Reluctance Machines (SRM) to enhance tracking performance and minimize torque ripple under parameter variations.
 - Established and configured a dynamometer test bench, integrating and validating motor control algorithms on an embedded microcontroller platform (TI C2000).
@@ -24,7 +30,7 @@ Indian Institute of Space Science and Technology (_Aug 2014 - May 2018_)
 - Performed mission-critical operations on launch vehicle avionic sub-assemblies; streamlined the testing process through the development of automation sequences, resulting in a 30% reduction in testing time and eliminating user operational error.
 
 
-## Projects
+## 📚 Academic Projects
 ### Modeling and Decoupled Control of Series-Connected Split-Phase Synchronous Machines with Open-Circuit Fault
 [Publication](https://ieeexplore.ieee.org/abstract/document/8891722)
 
@@ -68,7 +74,7 @@ Conducted trade-off studies for the selection of MOSFETs/Diodes and reactive com
 - Introduction to Self-Driving Cars [Credential](https://www.coursera.org/account/accomplishments/verify/VL4CYKBNCTFT)
 - Machine Learning [Credential](https://www.coursera.org/account/accomplishments/verify/DJMPDFPA8MM3)
 
-## Publications
+## 📜 Publications
 1. N. Gupta, G. T. G. and R. S. Kaarthik, "Modeling and Decoupled Control of Series-Connected Split-Phase Synchronous Machines With Open-Circuit Fault," in IEEE Transactions on Industry Applications, vol. 56, no. 1, pp. 325-334, Jan.-Feb. 2020, doi: 10.1109/TIA.2019.2951508
 2. Sakunthala, S., Gupta, N., Roy, A. and Sharma, K.K., 2021, October. On–Off Control Scheme Using Reaction Control Thrusters for Pitch Stability During Atmospheric Abort of Crew Module. In National Conference on Multidisciplinary Analysis and Optimization (pp. 113-121). Singapore: Springer Nature Singapore.
 3. Gupta, N. and Kaarthik, R.S., 2018, December. Decoupled control of two series connected split-phase synchronous machines from a single six-phase inverter. In 2018 IEEE International Conference on Power Electronics, Drives and Energy Systems (PEDES) (pp. 1-6). IEEE.
