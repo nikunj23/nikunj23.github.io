@@ -8,6 +8,7 @@
 | **Programming** | MATLAB/Simulink, Embedded C, Python |
 | **Software** | LTspice, PLECS, Code Composer Studio, Altium |
 | **Hardware** | Dynamometer, TI C2000 MCU, dSPACE |
+|     |      |
 
 ## 🎓 Education
 - **Master of Science, Electrical Engineering** <br>
