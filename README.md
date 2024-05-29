@@ -1,55 +1,73 @@
-# Data Scientist
+# Control Systems Engineer
 
-#### Technical Skills: Python, SQL, AWS, Snowflake, MATLAB
+#### Programming: MATLAB/Simulink, Embedded C, Python
+#### Software: LTspice, PLECS, Code Composer Studio, Altium
+#### Hardware: Dynamometer, TI C2000 MCU, dSPACE
 
 ## Education
-- Ph.D., Physics | The University of Texas at Dallas (_May 2022_)								       		
-- M.S., Physics	| The University of Texas at Dallas (_December 2019_)	 			        		
-- B.S., Physics | The University of Texas at Dallas (_May 2017_)
+- M.S., Electrical Engineering	| North Carolina State University (_Aug 2022 - Jul 2024_)	 			        		
+- B.Tech., Electronics and Communication Engineering | Indian Institute of Space Science and Technology (_Aug 2014 - May 2018_)
 
 ## Work Experience
-**Data Scientist @ Toyota Financial Services (_June 2022 - Present_)**
-- Uncovered and corrected missing step in production data pipeline which impacted over 70% of active accounts
-- Redeveloped loan originations model which resulted in 50% improvement in model performance and saving 1 million dollars in potential losses
+**Research Assistant @ FREEDM Systems Center - NCSU (_Jan 2023 - Present_)**
+- Designed and implemented robust motor control algorithms, such as two degree-of-freedom (2DoF), for Switched Reluctance Machines (SRM) to enhance tracking performance and minimize torque ripple under parameter variations.
+- Established and configured a dynamometer test bench, integrating and validating motor control algorithms on an embedded microcontroller platform (TI C2000).
 
-**Data Science Consultant @ Shawhin Talebi Ventures LLC (_December 2020 - Present_)**
-- Conducted data collection, processing, and analysis for novel study evaluating the impact of over 300 biometrics variables on human performance in hyper-realistic, live-fire training scenarios
-- Applied unsupervised deep learning approaches to longitudinal ICU data to discover novel sepsis sub-phenotypes
+**Mechatronics and Control Systems Intern @ Nexteer Automotive (_May 2023 - Aug 2023_)**
+- Designed and implemented a novel Model Predictive Control (MPC) algorithm with Integral action for a 12V SRM in an automotive steering application, eliminating steady-state error and achieving a 26% reduction in command tracking error.
+- Leveraged rapid prototyping methodologies to implement and validate various control strategies on a dynamometer, using dSPACE for real-time execution, and post-processed the experimental data in MATLAB.
+
+**Scientist/Engineer @ Indian Space Research Organization (ISRO) (_Aug 2018 - Jul 2022_)**
+- Conducted performance validation of aerospace electromechanical actuators and identification of system parameters.
+- Performed mission-critical operations on launch vehicle avionic sub-assemblies; streamlined the testing process through the development of automation sequences, resulting in a 30% reduction in testing time and eliminating user operational error.
+
 
 ## Projects
-### Data-Driven EEG Band Discovery with Decision Trees
-[Publication](https://www.mdpi.com/1424-8220/22/8/3048)
+### Modeling and Decoupled Control of Series-Connected Split-Phase Synchronous Machines with Open-Circuit Fault
+[Publication](https://ieeexplore.ieee.org/abstract/document/8891722)
 
-Developed objective strategy for discovering optimal EEG bands based on signal power spectra using **Python**. This data-driven approach led to better characterization of the underlying power spectrum by identifying bands that outperformed the more commonly used band boundaries by a factor of two. The proposed method provides a fully automated and flexible approach to capturing key signal components and possibly discovering new indices of brain activity.
+Developed a model for field-oriented control of a split-phase PMSM in Simulink utilizing a sinusoidal modulation technique. Experimentally verified the speed control of two series-connected PMSMs driven by a single six-phase inverter, utilizing the TI 
+F28335S microcontroller; illustrating potential applications in electric vehicles and rovers.
 
 ![EEG Band Discovery](/assets/img/eeg_band_discovery.jpeg)
 
-### Decoding Physical and Cognitive Impacts of Particulate Matter Concentrations at Ultra-Fine Scales
-[Publication](https://www.mdpi.com/1424-8220/22/11/4240)
+### Control scheme using Reaction Control Thrusters for Pitch Stability during Atmospheric Abort of Crew Module
+[Publication](https://link.springer.com/chapter/10.1007/978-981-19-3938-9_11)
 
-Used **Matlab** to train over 100 machine learning models which estimated particulate matter concentrations based on a suite of over 300 biometric variables. We found biometric variables can be used to accurately estimate particulate matter concentrations at ultra-fine spatial scales with high fidelity (r2 = 0.91) and that smaller particles are better estimated than larger ones. Inferring environmental conditions solely from biometric measurements allows us to disentangle key interactions between the environment and the body.
+Utilized wind tunnel data to identify the crew module’s stable trim points and identify regions of stability. Designed a hysteresis controller utilizing flight path angle and angle of attack data to generate the required control action. Conducted a feasibility study to determine the optimum RCS thruster force for achieving desired mission objectives. Designed and implemented a modified control logic to reduce thruster chattering and enhance fuel efficiency.
 
 ![Bike Study](/assets/img/bike_study.jpeg)
 
-## Talks & Lectures
-- Causality: The new science of an old question - GSP Seminar, Fall 2021
-- Guest Lecture: Dimensionality Reduction - Big Data and Machine Learning for Scientific Discovery (PHYS 5336), Spring 2021
-- Guest Lecture: Fourier and Wavelet Transforms - Scientific Computing (PHYS 5315), Fall 2020
-- A Brief Introduction to Optimization - GSP Seminar, Fall 2019
-- Weeks of Welcome Poster Competition - UTD, Fall 2019
-- A Brief Introduction to Networks - GSP Seminar, Spring 2019
+### Torque and Speed Control of a Three-phase Induction Machine (IM) in an EV propulsion drive
 
-- [Data Science YouTube](https://www.youtube.com/channel/UCa9gErQ9AE5jT2DZLjXBIdA)
+Developed a model of an IM in Simulink incorporating a vehicle load model and conducted robustness studies. Designed cascaded control loops using frequency response analysis for field-oriented torque and speed control. Implemented indirect rotor flux estimation methods and verified the transient response for a given speed profile.
+
+![Bike Study](/assets/img/bike_study.jpeg)
+
+### Control Software-in-Loop (SIL) Validation of a Grid Connected Voltage Source Inverter (VSI)
+
+Designed and implemented cascaded control loops for real and reactive power regulation of a grid-connected inverter. Implemented a space vector PWM technique to generate modulation signals and verified the operation. Developed C-code for the controller and validated system performance using the UNIFI SIL wrapper library in Simulink.
+
+![Bike Study](/assets/img/bike_study.jpeg)
+
+### Simulation and Control of a Half-bridge Center-tapped Series Resonant Converter (SRC)
+
+Developed an LTspice simulation model of the converter using the manufacturer’s component models and performed loss analysis. Developed a small signal model of the converter, and validated the performance with the converter switching model in Simulink. Designed and implemented a voltage compensator on a TI F28379D MCU, achieving a maximum output settling time of 10ms.
+
+![Bike Study](/assets/img/bike_study.jpeg)
+
+### Design, Simulation and Control of a Multi-Output Flyback DC/DC Converter
+
+Conducted trade-off studies for the selection of MOSFETs/Diodes and reactive components to meet 92% converter efficiency. Designed a lead-lag compensator using frequency response analysis and validated its performance in PLECS, achieving 10% maximum overshoot and 20ms settling time.
+
+![Bike Study](/assets/img/bike_study.jpeg)
+
+## Certifications
+- Introduction to Self-Driving Cars [Credential](https://www.coursera.org/account/accomplishments/verify/VL4CYKBNCTFT)
+- Machine Learning [Credential](https://www.coursera.org/account/accomplishments/verify/DJMPDFPA8MM3)
 
 ## Publications
-1. Talebi S., Lary D.J., Wijeratne L. OH., and Lary, T. Modeling Autonomic Pupillary Responses from External Stimuli Using Machine Learning (2019). DOI: 10.26717/BJSTR.2019.20.003446
-2. Wijeratne, L.O.; Kiv, D.R.; Aker, A.R.; Talebi, S.; Lary, D.J. Using Machine Learning for the Calibration of Airborne Particulate Sensors. Sensors 2020, 20, 99.
-3. Lary, D.J.; Schaefer, D.; Waczak, J.; Aker, A.; Barbosa, A.; Wijeratne, L.O.H.; Talebi, S.; Fernando, B.; Sadler, J.; Lary, T.; Lary, M.D. Autonomous Learning of New Environments with a Robotic Team Employing Hyper-Spectral Remote Sensing, Comprehensive In-Situ Sensing and Machine Learning. Sensors 2021, 21, 2240. https://doi.org/10.3390/s21062240
-4. Zhang, Y.; Wijeratne, L.O.H.; Talebi, S.; Lary, D.J. Machine Learning for Light Sensor Calibration. Sensors 2021, 21, 6259. https://doi.org/10.3390/s21186259
-5. Talebi, S.; Waczak, J.; Fernando, B.; Sridhar, A.; Lary, D.J. Data-Driven EEG Band Discovery with Decision Trees. Preprints 2022, 2022030145 (doi: 10.20944/preprints202203.0145.v1).
-6. Fernando, B.A.; Sridhar, A.; Talebi, S.; Waczak, J.; Lary, D.J. Unsupervised Blink Detection Using Eye Aspect Ratio Values. Preprints 2022, 2022030200 (doi: 10.20944/preprints202203.0200.v1).
-7. Talebi, S. et al. Decoding Physical and Cognitive Impacts of PM Concentrations at Ultra-fine Scales, 29 March 2022, PREPRINT (Version 1) available at Research Square [https://doi.org/10.21203/rs.3.rs-1499191/v1]
-8. Lary, D.J. et al. (2022). Machine Learning, Big Data, and Spatial Tools: A Combination to Reveal Complex Facts That Impact Environmental Health. In: Faruque, F.S. (eds) Geospatial Technology for Human Well-Being and Health. Springer, Cham. https://doi.org/10.1007/978-3-030-71377-5_12
-9. Wijerante, L.O.H. et al. (2022). Advancement in Airborne Particulate Estimation Using Machine Learning. In: Faruque, F.S. (eds) Geospatial Technology for Human Well-Being and Health. Springer, Cham. https://doi.org/10.1007/978-3-030-71377-5_13
-
-- [Data Science Blog](https://medium.com/@shawhin)
+1. N. Gupta, G. T. G. and R. S. Kaarthik, "Modeling and Decoupled Control of Series-Connected Split-Phase Synchronous Machines With Open-Circuit Fault," in IEEE Transactions on Industry Applications, vol. 56, no. 1, pp. 325-334, Jan.-Feb. 2020, doi: 10.1109/TIA.2019.2951508
+2. Sakunthala, S., Gupta, N., Roy, A. and Sharma, K.K., 2021, October. On–Off Control Scheme Using Reaction Control Thrusters for Pitch Stability During Atmospheric Abort of Crew Module. In National Conference on Multidisciplinary Analysis and Optimization (pp. 113-121). Singapore: Springer Nature Singapore.
+3. Gupta, N. and Kaarthik, R.S., 2018, December. Decoupled control of two series connected split-phase synchronous machines from a single six-phase inverter. In 2018 IEEE International Conference on Power Electronics, Drives and Energy Systems (PEDES) (pp. 1-6). IEEE.
+4. Gopika, T.G., Gupta, N. and Kaarthik, R.S., 2018, December. Modeling, simulation, and analysis of series-connected split-phase synchronous motor drive. In 2018 8th IEEE India International Conference on Power Electronics (IICPE) (pp. 1-6). IEEE.
