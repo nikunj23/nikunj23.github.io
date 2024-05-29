@@ -3,4 +3,6 @@ logo: assets/myImage.JPG
 description: I make motors run, that's all
 #show_downloads: true
 theme: jekyll-theme-minimal
+plugins:
+  - jekyll-seo-tag # Add SEO plugin
 email: ngupta25@ncsu.edu
