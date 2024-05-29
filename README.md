@@ -40,38 +40,38 @@ _Aug 2018 - Jul 2022_
 Developed a model for field-oriented control of a split-phase PMSM in Simulink utilizing a sinusoidal modulation technique. Experimentally verified the speed control of two series-connected PMSMs driven by a single six-phase inverter, utilizing the TI 
 F28335S microcontroller; illustrating potential applications in electric vehicles and rovers.
 
-![EEG Band Discovery](/assets/img/eeg_band_discovery.jpeg)
+![EEG Band Discovery](/assets/setup_2.jpg)
 
 ### Control scheme using Reaction Control Thrusters for Pitch Stability during Atmospheric Abort of Crew Module
 [Publication](https://link.springer.com/chapter/10.1007/978-981-19-3938-9_11)
 
 Utilized wind tunnel data to identify the crew module’s stable trim points and identify regions of stability. Designed a hysteresis controller utilizing flight path angle and angle of attack data to generate the required control action. Conducted a feasibility study to determine the optimum RCS thruster force for achieving desired mission objectives. Designed and implemented a modified control logic to reduce thruster chattering and enhance fuel efficiency.
 
-![Bike Study](/assets/img/bike_study.jpeg)
+![Bike Study](/assets/on_off_control.png)
 
 ### Torque and Speed Control of a Three-phase Induction Machine (IM) in an EV propulsion drive
 
 Developed a model of an IM in Simulink incorporating a vehicle load model and conducted robustness studies. Designed cascaded control loops using frequency response analysis for field-oriented torque and speed control. Implemented indirect rotor flux estimation methods and verified the transient response for a given speed profile.
 
-![Bike Study](/assets/img/bike_study.jpeg)
+![Bike Study](/assets/torque_profile_IM.png)
 
 ### Control Software-in-Loop (SIL) Validation of a Grid Connected Voltage Source Inverter (VSI)
 
 Designed and implemented cascaded control loops for real and reactive power regulation of a grid-connected inverter. Implemented a space vector PWM technique to generate modulation signals and verified the operation. Developed C-code for the controller and validated system performance using the UNIFI SIL wrapper library in Simulink.
 
-![Bike Study](/assets/img/bike_study.jpeg)
+![Bike Study](/assets/demoResultDroop.png)
 
 ### Simulation and Control of a Half-bridge Center-tapped Series Resonant Converter (SRC)
 
 Developed an LTspice simulation model of the converter using the manufacturer’s component models and performed loss analysis. Developed a small signal model of the converter, and validated the performance with the converter switching model in Simulink. Designed and implemented a voltage compensator on a TI F28379D MCU, achieving a maximum output settling time of 10ms.
 
-![Bike Study](/assets/img/bike_study.jpeg)
+![Bike Study](/assets/bode_designer_592.png)
 
 ### Design, Simulation and Control of a Multi-Output Flyback DC/DC Converter
 
 Conducted trade-off studies for the selection of MOSFETs/Diodes and reactive components to meet 92% converter efficiency. Designed a lead-lag compensator using frequency response analysis and validated its performance in PLECS, achieving 10% maximum overshoot and 20ms settling time.
 
-![Bike Study](/assets/img/bike_study.jpeg)
+![Bike Study](/assets/schematic_closedloop_534.png)
 
 ## 🖋️ Publications
 1. N. Gupta, G. T. G. and R. S. Kaarthik, "Modeling and Decoupled Control of Series-Connected Split-Phase Synchronous Machines With Open-Circuit Fault," in IEEE Transactions on Industry Applications, Jan.-Feb. 2020, doi: 10.1109/TIA.2019.2951508
