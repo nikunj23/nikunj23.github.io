@@ -44,10 +44,10 @@ I started with developing a model for field-oriented control of a split-phase PM
 The video illustrates the decoupled control of the two motors, where one motor runs at a constant speed and the second motor undergoes a transient. It is seen that the speed reversal is smooth and does not affect the dynamics of the first motor.
 
 ### Model Predictive Control (MPC) of a Single Support Phase of Walking
-Defined the control problem of a single support phase as an NLP in MATLAB using the symbolic framework CasADi. Designed an MPC algorithm for constrained control, achieving the desired state trajectories with minimal control effort.
+I started by defining the control problem as a Non-linear programming (NLP) problem in MATLAB using the symbolic framework CasADi. I defined the body dynamics and cost function based on the desired trajectory. Then an MPC algorithm with a control horizon of 20 was designed with constraints on the maximum input torque.
  
 <video width="480" height="360" controls muted>
-  <source src="/assets/decoupled_comp.mp4" type="video/mp4">
+  <source src="/assets/comparison.mp4" type="video/mp4">
 </video>
 
 The video illustrates the performance of the designed MPC algorithm (shown in blue) compared to the reference (shown in red). It is seen that the tracking is quite accurate over the entire duration of a single step of walking.
