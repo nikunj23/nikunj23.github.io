@@ -43,6 +43,15 @@ I started with developing a model for field-oriented control of a split-phase PM
 <!-- ![PMSM_decoupled](/assets/setup_2.jpg)  -->
 The video illustrates the decoupled control of the two motors, where one motor runs at a constant speed and the second motor undergoes a transient. It is seen that the speed reversal is smooth and does not affect the dynamics of the first motor.
 
+### Model Predictive Control (MPC) of a Single Support Phase of Walking
+Defined the control problem of a single support phase as an NLP in MATLAB using the symbolic framework CasADi. Designed an MPC algorithm for constrained control, achieving the desired state trajectories with minimal control effort.
+ 
+<video width="480" height="360" controls muted>
+  <source src="/assets/decoupled_comp.mp4" type="video/mp4">
+</video>
+
+The video illustrates the performance of the designed MPC algorithm (shown in blue) compared to the reference (shown in red). It is seen that the tracking is quite accurate over the entire duration of a single step of walking.
+
 ### Control scheme using Reaction Control Thrusters for Pitch Stability during Atmospheric Abort of Crew Module
 [Publication](https://link.springer.com/chapter/10.1007/978-981-19-3938-9_11)
 
